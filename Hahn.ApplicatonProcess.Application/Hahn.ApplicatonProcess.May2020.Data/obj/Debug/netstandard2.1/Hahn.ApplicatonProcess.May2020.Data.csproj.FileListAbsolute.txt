@@ -1,0 +1,11 @@
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.deps.json
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.dll
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.pdb
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.csprojAssemblyReference.cache
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.AssemblyInfoInputs.cache
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.AssemblyInfo.cs
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.dll
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.pdb
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.dll
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.pdb
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Data\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Data.csproj.CopyComplete

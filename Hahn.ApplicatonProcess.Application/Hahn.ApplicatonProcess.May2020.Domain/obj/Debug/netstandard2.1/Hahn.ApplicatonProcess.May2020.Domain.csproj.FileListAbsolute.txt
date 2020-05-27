@@ -1,0 +1,7 @@
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.deps.json
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.dll
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.pdb
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.AssemblyInfoInputs.cache
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.AssemblyInfo.cs
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.dll
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.pdb
