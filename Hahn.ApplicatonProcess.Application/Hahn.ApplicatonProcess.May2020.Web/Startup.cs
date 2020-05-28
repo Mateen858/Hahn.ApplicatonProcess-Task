@@ -18,6 +18,7 @@ using Microsoft.EntityFrameworkCore;
 using Hahn.ApplicatonProcess.May2020.Data.Interfaces;
 using Hahn.ApplicatonProcess.May2020.Data.Repository;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 namespace Hahn.ApplicatonProcess.May2020.Web
 {
@@ -58,6 +59,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSerilogRequestLogging();
             app.UseRouting();
 
             app.UseAuthorization();

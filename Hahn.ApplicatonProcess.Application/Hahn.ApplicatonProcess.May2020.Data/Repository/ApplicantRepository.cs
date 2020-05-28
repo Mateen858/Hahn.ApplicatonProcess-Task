@@ -1,6 +1,7 @@
 ﻿using Hahn.ApplicatonProcess.May2020.Data.Interfaces;
 using Hahn.ApplicatonProcess.May2020.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -10,16 +11,18 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
    public class ApplicantRepository : IApplicantRepository
     {
         private readonly AppDbContext _db;
+        private readonly ILogger<ApplicantRepository> _logger;
 
-        public ApplicantRepository()
-        {
-            _db = new AppDbContext(new DbContextOptions<AppDbContext>());
+        //public ApplicantRepository()
+        //{
+        //    _db = new AppDbContext(new DbContextOptions<AppDbContext>());
            
-        }
+        //}
 
-        public ApplicantRepository(AppDbContext db)
+        public ApplicantRepository(AppDbContext db, ILogger<ApplicantRepository> logger)
         {
             _db = db;
+            _logger = logger;
         }
         public async Task<int> CreateNew(Applicant applicant)
         {
@@ -32,6 +35,7 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
             }
             catch(Exception ex)
             {
+                _logger.LogError(ex, ex.Message);
                 result = -1;
             }
             return result;
@@ -53,12 +57,14 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
                 }
                 else
                 {
+
                     result = false;
                 }
                 
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, ex.Message);
                 result = false;
             }
             return result;
@@ -73,6 +79,7 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
             }
             catch(Exception ex)
             {
+                _logger.LogError(ex, ex.Message);
                 applicants = null;
             }
             return applicants;
@@ -87,6 +94,7 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, ex.Message);
                 applicant = null;
             }
             return applicant;
@@ -103,6 +111,7 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, ex.Message);
                 result = -1;
             }
             return result;

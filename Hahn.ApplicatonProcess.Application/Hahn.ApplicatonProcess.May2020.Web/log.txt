@@ -1,0 +1,34 @@
+05/28/2020 22:42:36 Starting up 
+05/28/2020 22:42:42 HTTP "GET" "/weatherforecast" responded 200 in 295.7725 ms 
+05/28/2020 22:44:22 HTTP "POST" "/api/Applicant/Save" responded 400 in 960.8150 ms 
+05/28/2020 22:44:41 HTTP "POST" "/api/Applicant/Save" responded 400 in 165.5861 ms 
+05/28/2020 22:44:52 HTTP "POST" "/api/Applicant/Save" responded 400 in 204.5775 ms 
+05/28/2020 22:45:13 HTTP "POST" "/api/Applicant/Save" responded 200 in 9772.0246 ms 
+05/28/2020 22:51:39 Starting up 
+05/28/2020 22:51:47 HTTP "GET" "/weatherforecast" responded 200 in 448.2449 ms 
+05/28/2020 22:54:52 HTTP "POST" "/api/Applicant/Save" responded 400 in 305.0110 ms 
+05/28/2020 22:54:55 HTTP "POST" "/api/Applicant/Save" responded 400 in 14.6776 ms 
+05/28/2020 22:56:31 Starting up 
+05/28/2020 22:56:37 HTTP "GET" "/weatherforecast" responded 200 in 364.4419 ms 
+05/28/2020 22:57:20 HTTP "POST" "/api/Applicant/Save" responded 400 in 297.4347 ms 
+05/28/2020 23:21:43 Starting up 
+05/28/2020 23:21:50 HTTP "GET" "/weatherforecast" responded 200 in 326.2969 ms 
+05/28/2020 23:22:51 HTTP "POST" "/api/Applicant/Save" responded 400 in 442.0724 ms 
+05/28/2020 23:31:38 Starting up 
+05/28/2020 23:31:43 HTTP "GET" "/weatherforecast" responded 200 in 305.2146 ms 
+05/28/2020 23:36:02 Starting up 
+05/28/2020 23:36:07 HTTP "GET" "/weatherforecast" responded 200 in 449.3424 ms 
+05/28/2020 23:37:04 this is my demo exception 
+System.Exception: this is my demo exception
+   at Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save(Applicant applicant) in F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\Controllers\ApplicantController.cs:line 52
+05/28/2020 23:37:06 HTTP "POST" "/api/Applicant/Save" responded 200 in 15983.6261 ms 
+05/28/2020 23:38:12 Starting up 
+05/28/2020 23:38:18 HTTP "GET" "/weatherforecast" responded 200 in 364.3152 ms 
+05/28/2020 23:38:56 HTTP "POST" "/api/Applicant/Save" responded 200 in 15722.4315 ms 
+05/28/2020 23:39:11 HTTP "POST" "/api/Applicant/getall" responded 405 in 2.3207 ms 
+05/28/2020 23:39:23 HTTP "GET" "/api/Applicant/getall" responded 200 in 2623.2368 ms 
+05/29/2020 00:43:30 Starting up 
+05/29/2020 00:43:44 HTTP "GET" "/weatherforecast" responded 200 in 1300.1489 ms 
+05/29/2020 00:43:47 HTTP "GET" "/favicon.ico" responded 404 in 3.1847 ms 
+05/29/2020 00:45:52 HTTP "POST" "/api/Applicant/Save" responded 200 in 11225.2832 ms 
+05/29/2020 00:51:37 HTTP "POST" "/api/Applicant/Save" responded 400 in 91.8617 ms 

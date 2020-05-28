@@ -5,3 +5,4 @@ F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Applica
 F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.AssemblyInfo.cs
 F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.dll
 F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.pdb
+F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.1\Hahn.ApplicatonProcess.May2020.Domain.csprojAssemblyReference.cache

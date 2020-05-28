@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using FluentValidation.AspNetCore;
-using Hahn.ApplicatonProcess.May2020.Data;
 using Hahn.ApplicatonProcess.May2020.Data.Interfaces;
-using Hahn.ApplicatonProcess.May2020.Domain.Business_Logic;
 using Hahn.ApplicatonProcess.May2020.Domain.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+
 
 namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
 {
@@ -18,10 +13,13 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
     public class ApplicantController : ControllerBase
     {
         private readonly IApplicantRepository _repository;
+        private readonly ILogger<ApplicantController> _logger;
+        
 
-        public ApplicantController(IApplicantRepository repository)
+        public ApplicantController(IApplicantRepository repository, ILogger<ApplicantController> logger)
         {
             _repository = repository;
+            _logger = logger;
         }
 
         [HttpGet("GetOne")]
@@ -47,7 +45,23 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             //var validator = new ApplicantValidator();
             //var results = validator.Validate(applicant1);
             //results.AddToModelState(ModelState, null);
+
+
+            //try
+            //{
+            //    throw new Exception("this is my demo exception");
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    _logger.LogError(ex, ex.Message);
+            //}
+
+
+
+
             int id = 0;
+
 
 
             if (ModelState.IsValid)
@@ -62,9 +76,9 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             }
             else
             {
+                var a = ModelState;
                 return BadRequest(ModelState);
             }
-
         }
 
         [HttpPut("Update")]
