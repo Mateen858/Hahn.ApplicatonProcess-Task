@@ -1,0 +1,58 @@
+<template>
+    <require from="bootstrap/dist/css/bootstrap.css"></require>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-responsive">
+                    <tr>
+                        <td>
+                           Name
+                        </td>
+                        <td>
+                            Family Name
+                        </td>
+                        <td>
+                            Address
+                        </td>
+                        <td>
+                            Country
+                        </td>
+                        <td>
+                            Email
+                        </td>
+                        <td>
+                            Age
+                        </td>
+                        <td>
+                            Hired
+                        </td>
+                    </tr>
+                    <tr repeat.for="applicant of applicants">
+                        <td>
+                            ${applicant.Name}
+                        </td>
+                        <td>
+                            ${applicant.FamilyName}
+                        </td>
+                        <td>
+                            ${applicant.Address}
+                        </td>
+                        <td>
+                            ${applicant.CountryOfOrigin}
+                        </td>
+                        <td>
+                            ${applicant.Email}
+                        </td>
+                        <td>
+                            ${applicant.Age}
+                        </td>
+                        <td>
+                            ${applicant.Hired}
+                        </td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+    
+</template>
+      
