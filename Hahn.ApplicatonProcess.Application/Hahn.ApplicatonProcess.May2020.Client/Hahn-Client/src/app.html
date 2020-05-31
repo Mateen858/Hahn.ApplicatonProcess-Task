@@ -1,4 +1,9 @@
 <template>
+  <require from="./locales/de/translation.json"></require>
+  <require from="./locales/en/translation.json"></require>
+ 
+  <button click.trigger="changeLocale('de')">de</button>
+  <button click.trigger="changeLocale('en')">en</button>
   <!-- <h1>${message}</h1> -->
   <router-view></router-view>
 </template>

@@ -20,6 +20,64 @@
       "coverage": false
     }
   },
+  "bundles": [
+    {
+      "name": "app-bundle.js",
+      "source": [
+        "[**/*.js]",
+        "**/*.{css,html,json}"
+      ],
+      "dependencies": [
+        "jquery",
+        {
+          "name": "toastr",
+          "path": "../node_modules/toastr",
+          "main": "toastr.js",
+          "resources": [
+            "build/toastr.min.css"
+          ],
+          "deps": [
+            "jquery"
+          ]
+        },
+        {
+          "name": "i18next",
+          "path": "../node_modules/i18next/dist/umd",
+          "main": "i18next"
+        },
+        {
+          "name": "aurelia-i18n",
+          "path": "../node_modules/aurelia-i18n/dist/amd",
+          "main": "aurelia-i18n"
+        },
+        {
+          "name": "i18next-xhr-backend",
+          "path": "../node_modules/i18next-xhr-backend/dist/umd",
+          "main": "i18nextXHRBackend"
+        }
+      ],
+      "loader":{
+        "type":"require",
+        "configTarget" :"vendor-bundle.js",
+        "includeBundleMedadataInConfig":"auto",
+        "plugins":[
+          {
+            "name":"text",
+            "extensions":[
+              ".html",
+              ".css",
+              ".json"
+            ],
+            "aurelia-i18n": [ 
+              { "name": "./locales/en/translation.json" }
+            
+            ],
+            "stub":false
+          }
+        ]
+      }
+    }
+  ],
   "platform": {
     "hmr": false,
     "open": false,

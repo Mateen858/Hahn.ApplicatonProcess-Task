@@ -56,10 +56,10 @@ export class ApplicantService {
         return promise;
     }
 
-    deleteContact(id) {
+    deleteApplicant(id) {
         let promise = new Promise((resolve, reject) => {
             this.http
-                .delete(`${this.urls.getOneApplicantUrl+id}`)
+                .delete(`${this.urls.deleteApplicantUrl+id}`)
                 .then(res => {
                     let response = JSON.parse(res.response);
                     resolve(response);

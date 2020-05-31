@@ -1,11 +1,15 @@
 <template>
     <require from="bootstrap/dist/css/bootstrap.css"></require>
-    <div class="container">
+    <div class="container"style="margin-top:50px">
         <div class="row">
-           
             <div class="col-md-12">
-                <!-- ${applicant} -->
-                <table class="table table-responsive">
+                <h1>Applicant Detail</h1>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-responsive table-borderless">
                     <tr>
                         <th class="text-right">Name:</th>
                         <td>${applicant.name}</td>
@@ -39,7 +43,7 @@
                         <td colspan="2">
                             <a class="btn btn-success" route-href="route: applicants">Back to List</a>
                             <a class="btn btn-info" route-href="route: edit; params.bind:{id:applicant.id}">Edit</a>
-                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-danger" click.delegate='openDeleteDialog()'>Delete</button>
                         </td>
                     </tr>
                 </table>

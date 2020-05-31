@@ -2,15 +2,22 @@ import { Applicant } from './applicant';
 import { ApplicantService } from './../services/applicant-service';
 import {inject} from 'aurelia-framework'
 import {EventAggregator} from 'aurelia-event-aggregator';
+import {DialogService} from 'aurelia-dialog';
+import {Prompt} from '../dialog/deleteDialog';
 
-@inject(EventAggregator, ApplicantService)
+
+@inject(EventAggregator, ApplicantService, DialogService)
 export class ContactDetail {
     private _applicantService: ApplicantService;
     public applicant : any;
+    public _dialogService;
 
 
-    constructor(eventAggregator, applicantService: ApplicantService) {
+
+    constructor(eventAggregator, applicantService: ApplicantService, dialogService:DialogService) {
         this._applicantService = applicantService;
+        this._dialogService = dialogService;
+
     }
 
     activate(params) {
@@ -18,7 +25,18 @@ export class ContactDetail {
             this.applicant = res;
         });
       }
-
-
+public openDeleteDialog(){
+    this._dialogService.open( {viewModel: Prompt, model: {'message':"Are you sure", "id": this.applicant.id} }).then(response => {
+        console.log(response);
+           
+        if (!response.wasCancelled) {
+           console.log('OK');
+        } else {
+           console.log('cancelled');
+        }
+        console.log(response.output);
+     });
+}
+      
 
 }

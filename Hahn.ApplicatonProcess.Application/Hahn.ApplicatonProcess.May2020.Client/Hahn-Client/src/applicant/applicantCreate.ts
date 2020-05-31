@@ -1,24 +1,32 @@
+import { Router } from 'aurelia-router';
 
 import { Applicant } from './applicant';
 import { ApplicantService } from './../services/applicant-service';
 import { inject, bindable } from 'aurelia-framework';
 import {EventAggregator} from "aurelia-event-aggregator";
+import * as toastr from 'toastr';
 import { ValidationControllerFactory, ValidationRules, Validator, validateTrigger, ValidationController } from 'aurelia-validation';
 import {BootstrapFormRenderer} from './bootstrap-form-renderer';
+  
 
-@inject(EventAggregator, ApplicantService, ValidationControllerFactory, Validator)
+@inject(EventAggregator, ApplicantService, ValidationControllerFactory, Validator, Router)
 export class ApplicantCreate {
     private _applicantService;
     private _ea;
     private _validator;
     public controller;
+    public _router;
+
     @bindable()
     applicant : Applicant = new Applicant();
 
-    constructor(ea: EventAggregator, applicantService: ApplicantService, validator : Validator, controllerFactory:ValidationControllerFactory) {
+    constructor(ea: EventAggregator, applicantService: ApplicantService, validator : Validator, controllerFactory:ValidationControllerFactory, router:Router) {
         this._applicantService = applicantService;
         this._ea = ea;
         this._validator = validator;
+        this._router = router;
+        
+
       //  this.controller = controllerFactory.createForCurrentScope();
         // this.controller = controllerFactory.createForCurrentScope();
         // this.controller.validateTrigger = validateTrigger.changeOrBlur;
@@ -48,6 +56,7 @@ export class ApplicantCreate {
     }
 
     activate(params) {
+    
         if(params.id){
             this._applicantService.getOneApplicant(params.id).then(res=>{
                 this.applicant = res;
@@ -66,11 +75,14 @@ export class ApplicantCreate {
     //       .on(this.applicant);
     //   }
 
-    create() {
+    createNew() {
         let applicant = JSON.parse(JSON.stringify(this.applicant));
         this._applicantService.createApplicant(applicant)
             .then(response => {
                 console.log(response);
+                toastr.success('Created Successfully');
+                console.log("router", this._router);
+                this._router.navigateToRoute('applicants');
             }).catch(err => console.log(err));
     }
 
@@ -78,12 +90,14 @@ export class ApplicantCreate {
         let applicant = JSON.parse(JSON.stringify(this.applicant));
         this._applicantService.updateApplicant(applicant)
             .then(response => {
+                toastr.success('Updated Successfully');
                 console.log(response);
             }).catch(err => console.log(err));
     }
 
 
     save(){
+        
         this.applicant.age =  Number(this.applicant.age);
         console.log("save",this.applicant);
        // this.validate();
@@ -93,9 +107,12 @@ export class ApplicantCreate {
             this.update();
         }
         else{
-            this.create();
+            this.createNew();
         }
     }
+
+
+    
 }
 
 
