@@ -34,11 +34,23 @@ namespace Hahn.ApplicatonProcess.May2020.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("mycors",
+                builder =>
+                builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
+
+                //{
+                //    builder.WithOrigins("http://localhost:8080/",
+                //                        "http://www.contoso.com").AllowAnyHeader().AllowAnyMethod();
+                //}
+                );
+            });
             services.AddControllers();
             services.AddScoped<AppDbContext>();
             services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("Hahn-Task"));
             services.AddScoped<IApplicantRepository, ApplicantRepository>();
-            services.AddMvc().AddFluentValidation();
+            //services.AddMvc().AddFluentValidation();
             services.AddTransient<IValidator<Applicant>, ApplicantValidator>();
             services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" }));
         }
@@ -46,6 +58,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("mycors");
             app.UseSwagger();
             // var context = app.ApplicationServices.GetService<AppDbContext>();
             //   AddTestData(context);

@@ -68,7 +68,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             {
                 id = await _repository.CreateNew(applicant);
                 if (id > 0)
-                    return Ok(id);
+                    return CreatedAtAction(nameof(GetOne), new { id = applicant.Id }, applicant);
                 else
                 {
                     return BadRequest("Something Went Wrong");
@@ -80,7 +80,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
                 return BadRequest(ModelState);
             }
         }
-
+        
         [HttpPut("Update")]
         public async Task<IActionResult> Update(Applicant applicant)
         {
@@ -102,7 +102,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             {
                 id = await _repository.Update(applicant);
                 if (id > 0)
-                    return Ok(id);
+                    return CreatedAtAction(nameof(GetOne), new { id = applicant.Id }, applicant);
                 else
                 {
                     return BadRequest("Something Went Wrong");

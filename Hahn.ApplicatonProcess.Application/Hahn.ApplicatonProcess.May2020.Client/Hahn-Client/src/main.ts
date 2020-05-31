@@ -14,4 +14,8 @@ export function configure(aurelia: Aurelia) {
   }
 
   aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
+  aurelia.use
+  .standardConfiguration()
+  .plugin(PLATFORM.moduleName('aurelia-validation'))
+  .developmentLogging();
 }

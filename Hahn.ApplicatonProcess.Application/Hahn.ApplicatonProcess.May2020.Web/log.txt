@@ -32,3 +32,1134 @@ System.Exception: this is my demo exception
 05/29/2020 00:43:47 HTTP "GET" "/favicon.ico" responded 404 in 3.1847 ms 
 05/29/2020 00:45:52 HTTP "POST" "/api/Applicant/Save" responded 200 in 11225.2832 ms 
 05/29/2020 00:51:37 HTTP "POST" "/api/Applicant/Save" responded 400 in 91.8617 ms 
+05/31/2020 13:54:51 Starting up 
+05/31/2020 13:55:00 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 13:55:24 Now listening on: "http://localhost:5000" 
+05/31/2020 13:55:24 Application started. Press Ctrl+C to shut down. 
+05/31/2020 13:55:24 Hosting environment: "Development" 
+05/31/2020 13:55:24 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 13:55:27 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 13:55:27 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:55:27 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 13:55:28 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 13:55:28 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.5ms. 
+05/31/2020 13:55:28 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 13:55:28 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 629.9069ms 
+05/31/2020 13:55:28 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:55:28 HTTP "GET" "/weatherforecast" responded 200 in 1158.3171 ms 
+05/31/2020 13:55:28 Request finished in 1276.7841ms 200 application/json; charset=utf-8 
+05/31/2020 13:55:31 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 13:55:31 HTTP "GET" "/favicon.ico" responded 404 in 29.2001 ms 
+05/31/2020 13:55:31 Request finished in 35.0958ms 404  
+05/31/2020 13:55:51 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 332 
+05/31/2020 13:55:51 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:55:51 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 13:55:52 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 13:55:59 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 13:55:59 Saved 1 entities to in-memory store. 
+05/31/2020 13:56:04 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 11619.8437ms. 
+05/31/2020 13:56:04 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 13:56:04 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 12404.2902ms 
+05/31/2020 13:56:04 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:56:04 HTTP "POST" "/api/Applicant/Save" responded 201 in 12492.3993 ms 
+05/31/2020 13:56:04 Request finished in 12506.2447ms 201 application/json; charset=utf-8 
+05/31/2020 13:59:19 Starting up 
+05/31/2020 13:59:22 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 13:59:23 Now listening on: "http://localhost:5000" 
+05/31/2020 13:59:23 Application started. Press Ctrl+C to shut down. 
+05/31/2020 13:59:23 Hosting environment: "Development" 
+05/31/2020 13:59:23 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 13:59:24 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 13:59:24 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:59:25 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 13:59:25 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 13:59:25 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4263ms. 
+05/31/2020 13:59:25 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 13:59:25 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 267.1851ms 
+05/31/2020 13:59:25 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 13:59:25 HTTP "GET" "/weatherforecast" responded 200 in 475.9771 ms 
+05/31/2020 13:59:25 Request finished in 594.981ms 200 application/json; charset=utf-8 
+05/31/2020 14:05:30 Starting up 
+05/31/2020 14:05:34 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 14:05:34 Now listening on: "http://localhost:5000" 
+05/31/2020 14:05:34 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:05:34 Hosting environment: "Development" 
+05/31/2020 14:05:34 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:05:36 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:05:36 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:05:36 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:05:36 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:05:36 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.2856ms. 
+05/31/2020 14:05:36 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:05:36 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 207.6889ms 
+05/31/2020 14:05:36 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:05:36 HTTP "GET" "/weatherforecast" responded 200 in 400.2342 ms 
+05/31/2020 14:05:36 Request finished in 522.2915ms 200 application/json; charset=utf-8 
+05/31/2020 14:23:27 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:23:27 Executing endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 14:23:27 Executed endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 14:23:27 HTTP "OPTIONS" "/api/Applicant/Save" responded 405 in 14.2911 ms 
+05/31/2020 14:23:27 Request finished in 73.8353ms 405  
+05/31/2020 14:29:44 Starting up 
+05/31/2020 14:29:48 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 14:29:49 Now listening on: "http://localhost:5000" 
+05/31/2020 14:29:49 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:29:49 Hosting environment: "Development" 
+05/31/2020 14:29:49 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:29:51 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:29:51 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:29:51 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:29:51 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:29:51 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.7572ms. 
+05/31/2020 14:29:51 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:29:51 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 174.9849ms 
+05/31/2020 14:29:51 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:29:51 HTTP "GET" "/weatherforecast" responded 200 in 313.8593 ms 
+05/31/2020 14:29:51 Request finished in 405.0617ms 200 application/json; charset=utf-8 
+05/31/2020 14:29:54 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 14:29:54 HTTP "GET" "/favicon.ico" responded 404 in 1.8719 ms 
+05/31/2020 14:29:54 Request finished in 7.1176ms 404  
+05/31/2020 14:30:59 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:30:59 Executing endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 14:30:59 Executed endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 14:30:59 HTTP "OPTIONS" "/api/Applicant/Save" responded 405 in 14.2793 ms 
+05/31/2020 14:30:59 Request finished in 21.3822ms 405  
+05/31/2020 14:32:10 Starting up 
+05/31/2020 14:32:13 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 14:32:14 Now listening on: "http://localhost:5000" 
+05/31/2020 14:32:14 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:32:14 Hosting environment: "Development" 
+05/31/2020 14:32:14 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:32:16 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:32:16 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:32:16 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:32:16 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:32:16 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.2717ms. 
+05/31/2020 14:32:16 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:32:16 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 294.1311ms 
+05/31/2020 14:32:16 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:32:16 HTTP "GET" "/weatherforecast" responded 200 in 429.2274 ms 
+05/31/2020 14:32:16 Request finished in 502.5955ms 200 application/json; charset=utf-8 
+05/31/2020 14:32:20 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 14:32:20 HTTP "GET" "/favicon.ico" responded 404 in 5.5042 ms 
+05/31/2020 14:32:20 Request finished in 12.4455ms 404  
+05/31/2020 14:32:30 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:32:30 CORS policy execution successful. 
+05/31/2020 14:32:30 Request finished in 13.9987ms 204  
+05/31/2020 14:32:54 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:32:54 CORS policy execution successful. 
+05/31/2020 14:32:54 Request finished in 7.8173ms 204  
+05/31/2020 14:35:24 Starting up 
+05/31/2020 14:35:26 User profile is available. Using '"C:\Users\Rana Mateen\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. 
+05/31/2020 14:35:27 Now listening on: "http://localhost:5000" 
+05/31/2020 14:35:27 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:35:27 Hosting environment: "Development" 
+05/31/2020 14:35:27 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:35:28 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:35:28 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:28 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:35:28 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:35:28 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.6829ms. 
+05/31/2020 14:35:28 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:35:29 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 216.6309ms 
+05/31/2020 14:35:29 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:29 HTTP "GET" "/weatherforecast" responded 200 in 465.1733 ms 
+05/31/2020 14:35:29 Request finished in 543.5956ms 200 application/json; charset=utf-8 
+05/31/2020 14:35:31 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 14:35:31 HTTP "GET" "/favicon.ico" responded 404 in 1.2924 ms 
+05/31/2020 14:35:31 Request finished in 6.2535ms 404  
+05/31/2020 14:35:35 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:35:35 CORS policy execution successful. 
+05/31/2020 14:35:35 Request finished in 15.5657ms 204  
+05/31/2020 14:35:35 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 159 
+05/31/2020 14:35:35 CORS policy execution successful. 
+05/31/2020 14:35:35 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:35 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:35:35 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:35:35 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 343.235ms 
+05/31/2020 14:35:35 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:35 HTTP "POST" "/api/Applicant/Save" responded 400 in 386.5406 ms 
+05/31/2020 14:35:35 Request finished in 396.5403ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:35:51 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:35:51 CORS policy execution successful. 
+05/31/2020 14:35:51 Request finished in 6.3891ms 204  
+05/31/2020 14:35:51 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 165 
+05/31/2020 14:35:51 CORS policy execution successful. 
+05/31/2020 14:35:51 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:51 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:35:51 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:35:51 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 6.7225ms 
+05/31/2020 14:35:51 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:35:51 HTTP "POST" "/api/Applicant/Save" responded 400 in 31.8371 ms 
+05/31/2020 14:35:51 Request finished in 40.5185ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:37:53 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:37:53 CORS policy execution successful. 
+05/31/2020 14:37:53 Request finished in 6.1827ms 204  
+05/31/2020 14:37:53 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 164 
+05/31/2020 14:37:53 CORS policy execution successful. 
+05/31/2020 14:37:53 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:37:53 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:37:53 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:37:53 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 10.1913ms 
+05/31/2020 14:37:53 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:37:53 HTTP "POST" "/api/Applicant/Save" responded 400 in 24.2737 ms 
+05/31/2020 14:37:53 Request finished in 29.8544ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:41:17 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:41:17 CORS policy execution successful. 
+05/31/2020 14:41:17 Request finished in 49.2002ms 204  
+05/31/2020 14:41:17 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 162 
+05/31/2020 14:41:17 CORS policy execution successful. 
+05/31/2020 14:41:17 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:41:17 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:41:17 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:41:17 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 7.4902ms 
+05/31/2020 14:41:17 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:41:17 HTTP "POST" "/api/Applicant/Save" responded 400 in 17.8635 ms 
+05/31/2020 14:41:17 Request finished in 23.5205ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:41:59 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:41:59 CORS policy execution successful. 
+05/31/2020 14:41:59 Request finished in 5.0463ms 204  
+05/31/2020 14:41:59 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 164 
+05/31/2020 14:41:59 CORS policy execution successful. 
+05/31/2020 14:41:59 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:41:59 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:41:59 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:41:59 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 6.6313ms 
+05/31/2020 14:41:59 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:41:59 HTTP "POST" "/api/Applicant/Save" responded 400 in 21.8838 ms 
+05/31/2020 14:41:59 Request finished in 29.2765ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:42:43 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:42:43 CORS policy execution successful. 
+05/31/2020 14:42:43 Request finished in 4.2576ms 204  
+05/31/2020 14:42:43 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 151 
+05/31/2020 14:42:43 CORS policy execution successful. 
+05/31/2020 14:42:43 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:42:43 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:42:43 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:42:43 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 5.9581ms 
+05/31/2020 14:42:43 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:42:43 HTTP "POST" "/api/Applicant/Save" responded 400 in 22.1485 ms 
+05/31/2020 14:42:43 Request finished in 27.8914ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:44:59 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:44:59 CORS policy execution successful. 
+05/31/2020 14:44:59 Request finished in 24.3455ms 204  
+05/31/2020 14:44:59 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 163 
+05/31/2020 14:44:59 CORS policy execution successful. 
+05/31/2020 14:44:59 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:44:59 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:44:59 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:44:59 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 7.5338ms 
+05/31/2020 14:44:59 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:44:59 HTTP "POST" "/api/Applicant/Save" responded 400 in 24.8466 ms 
+05/31/2020 14:44:59 Request finished in 36.2444ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:50:06 Starting up 
+05/31/2020 14:50:11 Now listening on: "http://localhost:5000" 
+05/31/2020 14:50:11 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:50:11 Hosting environment: "Development" 
+05/31/2020 14:50:11 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:50:12 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:50:12 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:50:12 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:50:12 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:50:12 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.7208ms. 
+05/31/2020 14:50:12 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:50:12 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 211.791ms 
+05/31/2020 14:50:12 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:50:12 HTTP "GET" "/weatherforecast" responded 200 in 382.7657 ms 
+05/31/2020 14:50:12 Request finished in 458.5157ms 200 application/json; charset=utf-8 
+05/31/2020 14:50:15 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 14:50:15 HTTP "GET" "/favicon.ico" responded 404 in 2.3246 ms 
+05/31/2020 14:50:15 Request finished in 41.8133ms 404  
+05/31/2020 14:50:21 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:50:21 CORS policy execution successful. 
+05/31/2020 14:50:21 Request finished in 16.2896ms 204  
+05/31/2020 14:50:21 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 167 
+05/31/2020 14:50:21 CORS policy execution successful. 
+05/31/2020 14:50:21 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:50:21 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:50:21 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:50:21 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 165.7955ms 
+05/31/2020 14:50:21 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:50:21 HTTP "POST" "/api/Applicant/Save" responded 400 in 212.2409 ms 
+05/31/2020 14:50:21 Request finished in 221.2814ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:54:24 Starting up 
+05/31/2020 14:54:27 Now listening on: "http://localhost:5000" 
+05/31/2020 14:54:27 Application started. Press Ctrl+C to shut down. 
+05/31/2020 14:54:27 Hosting environment: "Development" 
+05/31/2020 14:54:27 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 14:54:29 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 14:54:29 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:54:29 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:54:29 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:54:30 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.7979ms. 
+05/31/2020 14:54:30 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 14:54:30 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 312.4866ms 
+05/31/2020 14:54:30 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:54:30 HTTP "GET" "/weatherforecast" responded 200 in 676.2507 ms 
+05/31/2020 14:54:30 Request finished in 819.4285ms 200 application/json; charset=utf-8 
+05/31/2020 14:54:33 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 14:54:33 HTTP "GET" "/favicon.ico" responded 404 in 2.5878 ms 
+05/31/2020 14:54:33 Request finished in 28.5054ms 404  
+05/31/2020 14:54:41 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:54:41 CORS policy execution successful. 
+05/31/2020 14:54:41 Request finished in 14.4736ms 204  
+05/31/2020 14:54:41 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 162 
+05/31/2020 14:54:41 CORS policy execution successful. 
+05/31/2020 14:54:41 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:54:41 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:54:41 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:54:41 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 184.583ms 
+05/31/2020 14:54:41 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:54:41 HTTP "POST" "/api/Applicant/Save" responded 400 in 241.7494 ms 
+05/31/2020 14:54:41 Request finished in 253.2178ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:56:00 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:56:00 CORS policy execution successful. 
+05/31/2020 14:56:00 Request finished in 48.0902ms 204  
+05/31/2020 14:56:00 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 151 
+05/31/2020 14:56:00 CORS policy execution successful. 
+05/31/2020 14:56:00 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:56:00 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:56:00 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 14:56:00 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 7.2282ms 
+05/31/2020 14:56:00 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:56:00 HTTP "POST" "/api/Applicant/Save" responded 400 in 27.0014 ms 
+05/31/2020 14:56:00 Request finished in 34.5142ms 400 application/problem+json; charset=utf-8 
+05/31/2020 14:57:37 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:57:37 CORS policy execution successful. 
+05/31/2020 14:57:37 Request finished in 7.4292ms 204  
+05/31/2020 14:57:37 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 147 
+05/31/2020 14:57:37 CORS policy execution successful. 
+05/31/2020 14:57:37 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:57:37 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:57:37 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:58:00 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 14:58:00 Saved 1 entities to in-memory store. 
+05/31/2020 14:58:03 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 25472.8002ms. 
+05/31/2020 14:58:03 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 14:58:03 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 25650.9656ms 
+05/31/2020 14:58:03 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:58:03 HTTP "POST" "/api/Applicant/Save" responded 201 in 25663.8151 ms 
+05/31/2020 14:58:03 Request finished in 25674.6705ms 201 application/json; charset=utf-8 
+05/31/2020 14:59:12 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:59:12 CORS policy execution successful. 
+05/31/2020 14:59:12 Request finished in 5.6822ms 204  
+05/31/2020 14:59:12 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 159 
+05/31/2020 14:59:12 CORS policy execution successful. 
+05/31/2020 14:59:12 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:12 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:59:12 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:59:25 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:59:25 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 14:59:25 CORS policy execution successful. 
+05/31/2020 14:59:25 CORS policy execution successful. 
+05/31/2020 14:59:25 Request finished in 4.1259ms 204  
+05/31/2020 14:59:25 Request finished in 6.0952ms 204  
+05/31/2020 14:59:25 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 159 
+05/31/2020 14:59:25 CORS policy execution successful. 
+05/31/2020 14:59:25 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 159 
+05/31/2020 14:59:25 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:25 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:59:25 CORS policy execution successful. 
+05/31/2020 14:59:25 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:25 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 14:59:25 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:59:25 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 14:59:28 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 14:59:28 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 14:59:28 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 14:59:28 Saved 1 entities to in-memory store. 
+05/31/2020 14:59:28 Saved 1 entities to in-memory store. 
+05/31/2020 14:59:28 Saved 1 entities to in-memory store. 
+05/31/2020 14:59:29 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 4394.9133ms. 
+05/31/2020 14:59:30 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 3839.9369ms. 
+05/31/2020 14:59:32 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 19256.9229ms. 
+05/31/2020 14:59:32 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 14:59:32 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 14:59:32 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 14:59:32 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 6783.2719ms 
+05/31/2020 14:59:32 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 19313.3347ms 
+05/31/2020 14:59:32 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:32 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:32 HTTP "POST" "/api/Applicant/Save" responded 201 in 19339.9839 ms 
+05/31/2020 14:59:32 HTTP "POST" "/api/Applicant/Save" responded 201 in 6815.4478 ms 
+05/31/2020 14:59:32 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 6773.5437ms 
+05/31/2020 14:59:32 Request finished in 19358.8342ms 201 application/json; charset=utf-8 
+05/31/2020 14:59:32 Request finished in 6825.4372ms 201 application/json; charset=utf-8 
+05/31/2020 14:59:32 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 14:59:32 HTTP "POST" "/api/Applicant/Save" responded 201 in 6820.5939 ms 
+05/31/2020 14:59:32 Request finished in 6841.6633ms 201 application/json; charset=utf-8 
+05/31/2020 15:25:11 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:25:11 CORS policy execution successful. 
+05/31/2020 15:25:11 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:25:11 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:25:12 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:25:12 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:25:12 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 333.3572ms. 
+05/31/2020 15:25:12 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:25:12 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 399.5847ms 
+05/31/2020 15:25:12 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:25:12 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 434.2048 ms 
+05/31/2020 15:25:12 Request finished in 458.7878ms 200 application/json; charset=utf-8 
+05/31/2020 15:26:04 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:26:04 CORS policy execution successful. 
+05/31/2020 15:26:04 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:04 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:26:04 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:26:04 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:26:04 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 6.986ms. 
+05/31/2020 15:26:04 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:26:04 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 100.1085ms 
+05/31/2020 15:26:04 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:04 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 111.2289 ms 
+05/31/2020 15:26:04 Request finished in 121.2738ms 200 application/json; charset=utf-8 
+05/31/2020 15:26:18 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:26:18 CORS policy execution successful. 
+05/31/2020 15:26:18 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:18 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:26:18 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:26:19 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:26:19 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 6.3488ms. 
+05/31/2020 15:26:19 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:26:19 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 45.9314ms 
+05/31/2020 15:26:19 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:19 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 57.4839 ms 
+05/31/2020 15:26:19 Request finished in 64.2195ms 200 application/json; charset=utf-8 
+05/31/2020 15:26:23 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne/2   
+05/31/2020 15:26:23 CORS policy execution successful. 
+05/31/2020 15:26:23 HTTP "GET" "/api/Applicant/GetOne/2" responded 404 in 0.2248 ms 
+05/31/2020 15:26:23 Request finished in 51.8714ms 404  
+05/31/2020 15:26:31 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:26:31 CORS policy execution successful. 
+05/31/2020 15:26:31 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:31 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:26:31 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:26:31 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:26:31 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 21.9096ms. 
+05/31/2020 15:26:31 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:26:31 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 53.2446ms 
+05/31/2020 15:26:31 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:26:31 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 66.1991 ms 
+05/31/2020 15:26:31 Request finished in 82.6016ms 200 application/json; charset=utf-8 
+05/31/2020 15:26:33 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne/1   
+05/31/2020 15:26:33 CORS policy execution successful. 
+05/31/2020 15:26:33 HTTP "GET" "/api/Applicant/GetOne/1" responded 404 in 0.1108 ms 
+05/31/2020 15:26:33 Request finished in 23.9867ms 404  
+05/31/2020 15:26:48 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne/1   
+05/31/2020 15:26:48 CORS policy execution successful. 
+05/31/2020 15:26:48 HTTP "GET" "/api/Applicant/GetOne/1" responded 404 in 0.1523 ms 
+05/31/2020 15:26:48 Request finished in 7.6029ms 404  
+05/31/2020 15:27:53 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/getone?id=1 application/json  
+05/31/2020 15:27:53 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:27:53 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:27:53 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:27:53 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:27:53 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 169.9491ms. 
+05/31/2020 15:27:53 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:27:53 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 287.5847ms 
+05/31/2020 15:27:53 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:27:53 HTTP "GET" "/api/Applicant/getone?id=1" responded 200 in 309.6834 ms 
+05/31/2020 15:27:53 Request finished in 315.1619ms 200 application/json; charset=utf-8 
+05/31/2020 15:28:43 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 15:28:43 CORS policy execution successful. 
+05/31/2020 15:28:43 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:28:43 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:28:44 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:28:44 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:28:44 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 12.4491ms. 
+05/31/2020 15:28:44 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:28:44 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 64.3354ms 
+05/31/2020 15:28:44 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:28:44 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 79.8274 ms 
+05/31/2020 15:28:44 Request finished in 87.6542ms 200 application/json; charset=utf-8 
+05/31/2020 15:32:26 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 15:32:26 CORS policy execution successful. 
+05/31/2020 15:32:26 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:32:26 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:32:26 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:32:26 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:32:26 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 5.8658ms. 
+05/31/2020 15:32:26 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:32:26 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 62.1186ms 
+05/31/2020 15:32:26 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:32:26 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 79.8890 ms 
+05/31/2020 15:32:26 Request finished in 113.6744ms 200 application/json; charset=utf-8 
+05/31/2020 15:32:48 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 15:32:48 CORS policy execution successful. 
+05/31/2020 15:32:48 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:32:48 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:32:48 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:32:48 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:32:48 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 16.143ms. 
+05/31/2020 15:32:48 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:32:48 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 101.1789ms 
+05/31/2020 15:32:48 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:32:48 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 135.6030 ms 
+05/31/2020 15:32:48 Request finished in 143.1575ms 200 application/json; charset=utf-8 
+05/31/2020 15:33:34 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 15:33:34 CORS policy execution successful. 
+05/31/2020 15:33:34 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:33:34 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:33:34 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:33:34 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:33:34 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 20.1133ms. 
+05/31/2020 15:33:34 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:33:34 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 65.9333ms 
+05/31/2020 15:33:34 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:33:34 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 78.7024 ms 
+05/31/2020 15:33:34 Request finished in 85.4233ms 200 application/json; charset=utf-8 
+05/31/2020 15:36:21 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 15:36:21 CORS policy execution successful. 
+05/31/2020 15:36:21 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:36:21 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:36:21 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:36:21 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:36:22 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 6.061ms. 
+05/31/2020 15:36:22 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:36:22 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 46.6897ms 
+05/31/2020 15:36:22 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:36:22 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 57.7915 ms 
+05/31/2020 15:36:22 Request finished in 64.4447ms 200 application/json; charset=utf-8 
+05/31/2020 15:38:12 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:38:12 CORS policy execution successful. 
+05/31/2020 15:38:12 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:38:12 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:38:12 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:38:12 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:38:12 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 16.1384ms. 
+05/31/2020 15:38:12 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:38:13 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 52.0445ms 
+05/31/2020 15:38:13 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:38:13 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 67.4743 ms 
+05/31/2020 15:38:13 Request finished in 90.7082ms 200 application/json; charset=utf-8 
+05/31/2020 15:39:52 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 15:39:52 CORS policy execution successful. 
+05/31/2020 15:39:52 Request finished in 52.3208ms 204  
+05/31/2020 15:39:52 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 195 
+05/31/2020 15:39:52 CORS policy execution successful. 
+05/31/2020 15:39:52 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:39:52 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:39:52 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:39:58 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:39:58 Saved 1 entities to in-memory store. 
+05/31/2020 15:39:59 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 6543.977ms. 
+05/31/2020 15:39:59 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:39:59 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 6580.2558ms 
+05/31/2020 15:39:59 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:39:59 HTTP "POST" "/api/Applicant/Save" responded 201 in 6596.1606 ms 
+05/31/2020 15:39:59 Request finished in 6602.381ms 201 application/json; charset=utf-8 
+05/31/2020 15:40:11 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:40:11 CORS policy execution successful. 
+05/31/2020 15:40:11 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:11 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:40:11 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:40:11 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:40:11 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 3.6514ms. 
+05/31/2020 15:40:11 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:40:11 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 35.8528ms 
+05/31/2020 15:40:11 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:11 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 48.3600 ms 
+05/31/2020 15:40:11 Request finished in 129.6761ms 200 application/json; charset=utf-8 
+05/31/2020 15:40:13 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:40:13 CORS policy execution successful. 
+05/31/2020 15:40:13 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:13 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:40:13 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:40:13 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:40:13 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 5.1474ms. 
+05/31/2020 15:40:13 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:40:13 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 40.532ms 
+05/31/2020 15:40:13 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:13 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 64.3409 ms 
+05/31/2020 15:40:13 Request finished in 89.5464ms 200 application/json; charset=utf-8 
+05/31/2020 15:40:33 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:40:33 CORS policy execution successful. 
+05/31/2020 15:40:33 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:33 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:40:33 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:40:33 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:40:33 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.1291ms. 
+05/31/2020 15:40:33 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:40:33 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 65.3003ms 
+05/31/2020 15:40:33 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:40:33 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 181.2265 ms 
+05/31/2020 15:40:33 Request finished in 188.5795ms 200 application/json; charset=utf-8 
+05/31/2020 15:41:02 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:41:03 CORS policy execution successful. 
+05/31/2020 15:41:03 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:41:03 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:41:03 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:41:03 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:41:03 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 30.718ms. 
+05/31/2020 15:41:03 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:41:03 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 172.1185ms 
+05/31/2020 15:41:03 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:41:03 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 188.4499 ms 
+05/31/2020 15:41:03 Request finished in 429.1514ms 200 application/json; charset=utf-8 
+05/31/2020 15:42:34 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:42:34 CORS policy execution successful. 
+05/31/2020 15:42:34 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:42:34 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:42:34 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:42:34 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:42:34 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 11.65ms. 
+05/31/2020 15:42:35 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:42:35 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 117.9343ms 
+05/31/2020 15:42:35 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:42:35 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 148.1409 ms 
+05/31/2020 15:42:35 Request finished in 341.3033ms 200 application/json; charset=utf-8 
+05/31/2020 15:42:55 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:42:55 CORS policy execution successful. 
+05/31/2020 15:42:55 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:42:55 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:42:56 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:42:56 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:42:56 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 12.3343ms. 
+05/31/2020 15:42:56 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:42:56 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 95.5326ms 
+05/31/2020 15:42:56 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:42:56 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 183.2179 ms 
+05/31/2020 15:42:56 Request finished in 313.5862ms 200 application/json; charset=utf-8 
+05/31/2020 15:44:10 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:44:10 CORS policy execution successful. 
+05/31/2020 15:44:10 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:44:10 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:44:10 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:44:10 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:44:10 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 20.8398ms. 
+05/31/2020 15:44:10 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:44:10 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 106.1331ms 
+05/31/2020 15:44:10 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:44:10 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 150.7798 ms 
+05/31/2020 15:44:10 Request finished in 373.8834ms 200 application/json; charset=utf-8 
+05/31/2020 15:45:20 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:45:20 CORS policy execution successful. 
+05/31/2020 15:45:20 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:45:20 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:45:20 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:45:20 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:45:20 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 23.25ms. 
+05/31/2020 15:45:20 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:45:20 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 123.5839ms 
+05/31/2020 15:45:20 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:45:20 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 511.1516 ms 
+05/31/2020 15:45:20 Request finished in 599.8567ms 200 application/json; charset=utf-8 
+05/31/2020 15:48:29 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:48:29 CORS policy execution successful. 
+05/31/2020 15:48:29 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:29 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:48:29 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:48:29 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:48:29 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 13.6563ms. 
+05/31/2020 15:48:29 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:48:29 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 48.567ms 
+05/31/2020 15:48:29 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:29 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 60.1342 ms 
+05/31/2020 15:48:29 Request finished in 82.5274ms 200 application/json; charset=utf-8 
+05/31/2020 15:48:37 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:48:37 CORS policy execution successful. 
+05/31/2020 15:48:37 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:37 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:48:37 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:48:37 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:48:37 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 5.057ms. 
+05/31/2020 15:48:37 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:48:37 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 64.1919ms 
+05/31/2020 15:48:37 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:37 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 83.3461 ms 
+05/31/2020 15:48:37 Request finished in 90.8751ms 200 application/json; charset=utf-8 
+05/31/2020 15:48:40 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:48:40 CORS policy execution successful. 
+05/31/2020 15:48:40 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:40 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:48:40 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:48:40 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:48:40 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 2.6976ms. 
+05/31/2020 15:48:40 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:48:40 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 34.1538ms 
+05/31/2020 15:48:40 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:48:40 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 55.1796 ms 
+05/31/2020 15:48:40 Request finished in 64.8373ms 200 application/json; charset=utf-8 
+05/31/2020 15:50:32 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:50:32 CORS policy execution successful. 
+05/31/2020 15:50:32 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:50:32 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:50:32 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:50:32 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:50:32 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 3.7532ms. 
+05/31/2020 15:50:32 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:50:32 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 41.3081ms 
+05/31/2020 15:50:32 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:50:32 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 63.6207 ms 
+05/31/2020 15:50:32 Request finished in 70.4708ms 200 application/json; charset=utf-8 
+05/31/2020 15:50:53 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:50:53 CORS policy execution successful. 
+05/31/2020 15:50:53 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:50:53 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:50:53 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:50:53 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:50:53 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 3.961ms. 
+05/31/2020 15:50:53 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:50:53 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 39.0583ms 
+05/31/2020 15:50:53 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:50:53 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 54.7805 ms 
+05/31/2020 15:50:53 Request finished in 62.4275ms 200 application/json; charset=utf-8 
+05/31/2020 15:51:01 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:51:01 CORS policy execution successful. 
+05/31/2020 15:51:01 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:51:01 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:51:01 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:51:01 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:51:01 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.7799ms. 
+05/31/2020 15:51:01 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:51:01 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 132.1498ms 
+05/31/2020 15:51:01 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:51:01 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 172.7335 ms 
+05/31/2020 15:51:01 Request finished in 182.2112ms 200 application/json; charset=utf-8 
+05/31/2020 15:52:19 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:52:19 CORS policy execution successful. 
+05/31/2020 15:52:19 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:52:19 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:52:19 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:52:19 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:52:19 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 6.9691ms. 
+05/31/2020 15:52:19 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:52:19 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 39.771ms 
+05/31/2020 15:52:20 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:52:20 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 54.1640 ms 
+05/31/2020 15:52:20 Request finished in 61.799ms 200 application/json; charset=utf-8 
+05/31/2020 15:53:43 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:53:43 CORS policy execution successful. 
+05/31/2020 15:53:43 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:53:43 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:53:43 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:53:43 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:53:43 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 9.8301ms. 
+05/31/2020 15:53:43 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:53:43 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 99.2126ms 
+05/31/2020 15:53:43 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:53:43 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 126.1363 ms 
+05/31/2020 15:53:43 Request finished in 140.9058ms 200 application/json; charset=utf-8 
+05/31/2020 15:53:45 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 15:53:45 CORS policy execution successful. 
+05/31/2020 15:53:45 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:53:45 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:53:45 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:53:45 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:53:45 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 3.6214ms. 
+05/31/2020 15:53:45 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 15:53:45 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 44.3469ms 
+05/31/2020 15:53:45 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:53:45 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 68.3645 ms 
+05/31/2020 15:53:45 Request finished in 76.3073ms 200 application/json; charset=utf-8 
+05/31/2020 15:54:56 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:54:56 CORS policy execution successful. 
+05/31/2020 15:54:56 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:54:56 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:54:56 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:54:56 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:54:56 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 12.9108ms. 
+05/31/2020 15:54:56 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:54:56 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 54.6892ms 
+05/31/2020 15:54:56 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:54:56 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 80.7832 ms 
+05/31/2020 15:54:56 Request finished in 95.8707ms 200 application/json; charset=utf-8 
+05/31/2020 15:55:33 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:55:33 CORS policy execution successful. 
+05/31/2020 15:55:33 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:33 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:55:33 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:55:33 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:55:33 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 9.1508ms. 
+05/31/2020 15:55:33 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:55:33 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 77.1198ms 
+05/31/2020 15:55:33 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:33 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 163.4486 ms 
+05/31/2020 15:55:33 Request finished in 189.8666ms 200 application/json; charset=utf-8 
+05/31/2020 15:55:45 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:55:45 CORS policy execution successful. 
+05/31/2020 15:55:45 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:45 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:55:45 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:55:45 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:55:45 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 5.5306ms. 
+05/31/2020 15:55:45 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:55:45 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 57.5595ms 
+05/31/2020 15:55:46 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:46 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 84.9345 ms 
+05/31/2020 15:55:46 Request finished in 92.7551ms 200 application/json; charset=utf-8 
+05/31/2020 15:55:58 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:55:58 CORS policy execution successful. 
+05/31/2020 15:55:58 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:58 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:55:58 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:55:58 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:55:58 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 5.519ms. 
+05/31/2020 15:55:58 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:55:58 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 51.8019ms 
+05/31/2020 15:55:58 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:55:58 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 72.9214 ms 
+05/31/2020 15:55:58 Request finished in 82.8029ms 200 application/json; charset=utf-8 
+05/31/2020 15:57:06 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:57:06 CORS policy execution successful. 
+05/31/2020 15:57:06 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:57:06 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:57:06 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:57:06 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:57:06 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 21.2387ms. 
+05/31/2020 15:57:06 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:57:06 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 148.9798ms 
+05/31/2020 15:57:06 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:57:06 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 164.8511 ms 
+05/31/2020 15:57:06 Request finished in 170.6578ms 200 application/json; charset=utf-8 
+05/31/2020 15:57:51 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 15:57:51 CORS policy execution successful. 
+05/31/2020 15:57:52 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:57:52 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 15:57:52 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 15:57:52 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 15:57:52 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 4.1705ms. 
+05/31/2020 15:57:52 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 15:57:52 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 75.3527ms 
+05/31/2020 15:57:52 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 15:57:52 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 97.1904 ms 
+05/31/2020 15:57:52 Request finished in 1064.9062ms 200 application/json; charset=utf-8 
+05/31/2020 15:58:05 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 15:58:05 CORS policy execution successful. 
+05/31/2020 15:58:05 Request finished in 3.7582ms 204  
+05/31/2020 15:58:05 Request starting HTTP/1.1 PUT http://localhost:5000/api/Applicant/Save application/json 210 
+05/31/2020 15:58:05 CORS policy execution successful. 
+05/31/2020 15:58:05 Executing endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 15:58:05 Executed endpoint '"405 HTTP Method Not Supported"' 
+05/31/2020 15:58:05 HTTP "PUT" "/api/Applicant/Save" responded 405 in 4.1474 ms 
+05/31/2020 15:58:05 Request finished in 18.0701ms 405  
+05/31/2020 16:06:35 Starting up 
+05/31/2020 16:06:38 Now listening on: "http://localhost:5000" 
+05/31/2020 16:06:38 Application started. Press Ctrl+C to shut down. 
+05/31/2020 16:06:38 Hosting environment: "Development" 
+05/31/2020 16:06:38 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 16:06:40 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 16:06:41 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:06:41 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:06:41 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:06:41 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.5356ms. 
+05/31/2020 16:06:41 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 16:06:41 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 218.6797ms 
+05/31/2020 16:06:41 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:06:41 HTTP "GET" "/weatherforecast" responded 200 in 423.0648 ms 
+05/31/2020 16:06:41 Request finished in 517.3194ms 200 application/json; charset=utf-8 
+05/31/2020 16:06:44 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 16:06:44 HTTP "GET" "/favicon.ico" responded 404 in 2.1745 ms 
+05/31/2020 16:06:44 Request finished in 9.1825ms 404  
+05/31/2020 16:07:14 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 16:07:14 CORS policy execution successful. 
+05/31/2020 16:07:14 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:14 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:07:15 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:07:16 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:07:16 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 1416.9451ms. 
+05/31/2020 16:07:16 Executing JsonResult, writing value of type '"null"'. 
+05/31/2020 16:07:16 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 1858.8053ms 
+05/31/2020 16:07:16 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:16 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 1946.4817 ms 
+05/31/2020 16:07:16 Request finished in 2075.5974ms 200 application/json; charset=utf-8 
+05/31/2020 16:07:23 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=5   
+05/31/2020 16:07:23 CORS policy execution successful. 
+05/31/2020 16:07:23 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:23 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:07:23 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:07:23 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:07:23 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 70.0531ms. 
+05/31/2020 16:07:23 Executing JsonResult, writing value of type '"null"'. 
+05/31/2020 16:07:23 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 183.8721ms 
+05/31/2020 16:07:23 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:23 HTTP "GET" "/api/Applicant/GetOne?id=5" responded 200 in 215.5934 ms 
+05/31/2020 16:07:23 Request finished in 242.3979ms 200 application/json; charset=utf-8 
+05/31/2020 16:07:40 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 16:07:40 CORS policy execution successful. 
+05/31/2020 16:07:40 Request finished in 24.2451ms 204  
+05/31/2020 16:07:40 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 193 
+05/31/2020 16:07:40 CORS policy execution successful. 
+05/31/2020 16:07:40 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:40 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:07:41 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:07:44 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:07:44 Saved 1 entities to in-memory store. 
+05/31/2020 16:07:48 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 7220.0225ms. 
+05/31/2020 16:07:48 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:07:48 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 7432.7854ms 
+05/31/2020 16:07:48 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:48 HTTP "POST" "/api/Applicant/Save" responded 201 in 7501.8762 ms 
+05/31/2020 16:07:48 Request finished in 7516.0039ms 201 application/json; charset=utf-8 
+05/31/2020 16:07:59 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 16:07:59 CORS policy execution successful. 
+05/31/2020 16:07:59 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:59 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:07:59 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:07:59 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:07:59 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 31.5095ms. 
+05/31/2020 16:07:59 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 16:07:59 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 73.8569ms 
+05/31/2020 16:07:59 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:07:59 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 103.4822 ms 
+05/31/2020 16:07:59 Request finished in 111.4993ms 200 application/json; charset=utf-8 
+05/31/2020 16:08:02 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:08:02 CORS policy execution successful. 
+05/31/2020 16:08:02 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:02 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:08:02 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:08:02 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:08:02 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 11.762ms. 
+05/31/2020 16:08:02 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:08:02 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 59.1402ms 
+05/31/2020 16:08:02 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:02 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 73.3309 ms 
+05/31/2020 16:08:02 Request finished in 84.0076ms 200 application/json; charset=utf-8 
+05/31/2020 16:08:09 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:08:09 CORS policy execution successful. 
+05/31/2020 16:08:09 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:09 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:08:09 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:08:09 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:08:09 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 10.0929ms. 
+05/31/2020 16:08:09 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:08:09 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 98.9853ms 
+05/31/2020 16:08:09 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:09 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 136.6177 ms 
+05/31/2020 16:08:09 Request finished in 148.1112ms 200 application/json; charset=utf-8 
+05/31/2020 16:08:17 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/update   
+05/31/2020 16:08:17 CORS policy execution successful. 
+05/31/2020 16:08:17 Request finished in 4.7114ms 204  
+05/31/2020 16:08:17 Request starting HTTP/1.1 PUT http://localhost:5000/api/Applicant/update application/json 210 
+05/31/2020 16:08:17 CORS policy execution successful. 
+05/31/2020 16:08:17 HTTP "PUT" "/api/Applicant/update" responded 404 in 0.2455 ms 
+05/31/2020 16:08:17 Request finished in 8.002ms 404  
+05/31/2020 16:08:54 Starting up 
+05/31/2020 16:08:57 Now listening on: "http://localhost:5000" 
+05/31/2020 16:08:57 Application started. Press Ctrl+C to shut down. 
+05/31/2020 16:08:57 Hosting environment: "Development" 
+05/31/2020 16:08:57 Content root path: "F:\GitHub\lates codes\Hahn.ApplicatonProcess-Task\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web" 
+05/31/2020 16:08:58 Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast   
+05/31/2020 16:08:58 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:59 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[Hahn.ApplicatonProcess.May2020.Web.WeatherForecast] Get()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:08:59 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:08:59 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.3599ms. 
+05/31/2020 16:08:59 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Web.WeatherForecast[]"'. 
+05/31/2020 16:08:59 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)" in 502.1658ms 
+05/31/2020 16:08:59 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.WeatherForecastController.Get (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:08:59 HTTP "GET" "/weatherforecast" responded 200 in 639.6614 ms 
+05/31/2020 16:08:59 Request finished in 700.9229ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:03 Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+05/31/2020 16:09:03 HTTP "GET" "/favicon.ico" responded 404 in 2.8114 ms 
+05/31/2020 16:09:03 Request finished in 34.3651ms 404  
+05/31/2020 16:09:08 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:09:08 CORS policy execution successful. 
+05/31/2020 16:09:08 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:09 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:09 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:10 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:10 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 1410.8762ms. 
+05/31/2020 16:09:10 Executing JsonResult, writing value of type '"null"'. 
+05/31/2020 16:09:10 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 1855.282ms 
+05/31/2020 16:09:10 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:10 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 1967.1093 ms 
+05/31/2020 16:09:10 Request finished in 2022.7656ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:21 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 16:09:21 CORS policy execution successful. 
+05/31/2020 16:09:21 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:21 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:21 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:21 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:21 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 45.2028ms. 
+05/31/2020 16:09:21 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 16:09:21 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 86.5176ms 
+05/31/2020 16:09:21 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:21 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 130.3726 ms 
+05/31/2020 16:09:21 Request finished in 148.6885ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:26 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 16:09:26 CORS policy execution successful. 
+05/31/2020 16:09:26 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:26 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:26 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:26 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:26 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 20.6102ms. 
+05/31/2020 16:09:26 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 16:09:26 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 107.9882ms 
+05/31/2020 16:09:26 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:26 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 128.2367 ms 
+05/31/2020 16:09:26 Request finished in 143.848ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:44 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Save   
+05/31/2020 16:09:44 CORS policy execution successful. 
+05/31/2020 16:09:44 Request finished in 6.5721ms 204  
+05/31/2020 16:09:44 Request starting HTTP/1.1 POST http://localhost:5000/api/Applicant/Save application/json 201 
+05/31/2020 16:09:44 CORS policy execution successful. 
+05/31/2020 16:09:44 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:44 Route matched with "{action = \"Save\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Save(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:44 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:44 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:44 Saved 1 entities to in-memory store. 
+05/31/2020 16:09:44 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 161.7996ms. 
+05/31/2020 16:09:44 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:09:44 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)" in 265.4625ms 
+05/31/2020 16:09:44 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Save (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:44 HTTP "POST" "/api/Applicant/Save" responded 201 in 287.1659 ms 
+05/31/2020 16:09:44 Request finished in 300.1558ms 201 application/json; charset=utf-8 
+05/31/2020 16:09:51 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 16:09:51 CORS policy execution successful. 
+05/31/2020 16:09:51 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:52 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:52 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:52 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:52 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 11.3984ms. 
+05/31/2020 16:09:52 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 16:09:52 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 49.6552ms 
+05/31/2020 16:09:52 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:52 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 73.6648 ms 
+05/31/2020 16:09:52 Request finished in 99.6362ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:54 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:09:54 CORS policy execution successful. 
+05/31/2020 16:09:54 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:54 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:54 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:54 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:54 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 10.3653ms. 
+05/31/2020 16:09:54 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:09:54 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 53.8083ms 
+05/31/2020 16:09:54 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:54 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 72.3090 ms 
+05/31/2020 16:09:54 Request finished in 79.1743ms 200 application/json; charset=utf-8 
+05/31/2020 16:09:56 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:09:56 CORS policy execution successful. 
+05/31/2020 16:09:56 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:56 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:09:56 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:09:56 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:09:56 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.8717ms. 
+05/31/2020 16:09:56 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:09:56 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 43.8767ms 
+05/31/2020 16:09:56 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:09:56 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 107.2375 ms 
+05/31/2020 16:09:56 Request finished in 115.0555ms 200 application/json; charset=utf-8 
+05/31/2020 16:10:08 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Update   
+05/31/2020 16:10:08 CORS policy execution successful. 
+05/31/2020 16:10:08 Request finished in 4.3726ms 204  
+05/31/2020 16:10:08 Request starting HTTP/1.1 PUT http://localhost:5000/api/Applicant/Update application/json 215 
+05/31/2020 16:10:08 CORS policy execution successful. 
+05/31/2020 16:10:08 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:10:08 Route matched with "{action = \"Update\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:10:08 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 16:10:08 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)" in 20.438ms 
+05/31/2020 16:10:08 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:10:08 HTTP "PUT" "/api/Applicant/Update" responded 400 in 88.0787 ms 
+05/31/2020 16:10:08 Request finished in 97.125ms 400 application/problem+json; charset=utf-8 
+05/31/2020 16:12:37 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:12:37 CORS policy execution successful. 
+05/31/2020 16:12:37 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:12:37 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:12:37 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:12:37 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:12:37 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 37.7875ms. 
+05/31/2020 16:12:37 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:12:37 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 109.9603ms 
+05/31/2020 16:12:37 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:12:37 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 122.5565 ms 
+05/31/2020 16:12:37 Request finished in 133.8881ms 200 application/json; charset=utf-8 
+05/31/2020 16:12:49 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:12:49 CORS policy execution successful. 
+05/31/2020 16:12:49 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:12:49 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:12:49 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:12:49 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:12:49 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.1354ms. 
+05/31/2020 16:12:49 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:12:49 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 322.5091ms 
+05/31/2020 16:12:49 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:12:49 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 353.4223 ms 
+05/31/2020 16:12:49 Request finished in 756.0817ms 200 application/json; charset=utf-8 
+05/31/2020 16:13:09 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Update   
+05/31/2020 16:13:09 CORS policy execution successful. 
+05/31/2020 16:13:09 Request finished in 18.4658ms 204  
+05/31/2020 16:13:09 Request starting HTTP/1.1 PUT http://localhost:5000/api/Applicant/Update application/json 206 
+05/31/2020 16:13:09 CORS policy execution successful. 
+05/31/2020 16:13:09 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:13:09 Route matched with "{action = \"Update\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:13:09 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. 
+05/31/2020 16:13:09 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)" in 7.8491ms 
+05/31/2020 16:13:09 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:13:09 HTTP "PUT" "/api/Applicant/Update" responded 400 in 28.2848 ms 
+05/31/2020 16:13:09 Request finished in 35.6176ms 400 application/problem+json; charset=utf-8 
+05/31/2020 16:13:54 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:13:54 CORS policy execution successful. 
+05/31/2020 16:13:54 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:13:54 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:13:54 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:13:54 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:13:54 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 18.7442ms. 
+05/31/2020 16:13:54 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:13:54 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 82.5607ms 
+05/31/2020 16:13:54 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:13:54 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 104.1630 ms 
+05/31/2020 16:13:54 Request finished in 432.9458ms 200 application/json; charset=utf-8 
+05/31/2020 16:14:01 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:14:02 CORS policy execution successful. 
+05/31/2020 16:14:02 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:02 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:14:02 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:14:02 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:14:02 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 18.2947ms. 
+05/31/2020 16:14:03 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:14:03 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 407.715ms 
+05/31/2020 16:14:03 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:03 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 454.9094 ms 
+05/31/2020 16:14:03 Request finished in 1396.114ms 200 application/json; charset=utf-8 
+05/31/2020 16:14:09 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:14:09 CORS policy execution successful. 
+05/31/2020 16:14:09 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:09 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:14:09 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:14:09 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:14:09 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.0909ms. 
+05/31/2020 16:14:09 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:14:09 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 53.781ms 
+05/31/2020 16:14:09 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:09 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 75.6316 ms 
+05/31/2020 16:14:09 Request finished in 89.9596ms 200 application/json; charset=utf-8 
+05/31/2020 16:14:20 Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/Applicant/Update   
+05/31/2020 16:14:20 CORS policy execution successful. 
+05/31/2020 16:14:20 Request finished in 4.2385ms 204  
+05/31/2020 16:14:20 Request starting HTTP/1.1 PUT http://localhost:5000/api/Applicant/Update application/json 208 
+05/31/2020 16:14:20 CORS policy execution successful. 
+05/31/2020 16:14:20 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:20 Route matched with "{action = \"Update\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:14:20 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:14:20 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:14:20 Saved 1 entities to in-memory store. 
+05/31/2020 16:14:20 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtActionResult" in 16.3743ms. 
+05/31/2020 16:14:20 Executing ObjectResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:14:20 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)" in 64.4921ms 
+05/31/2020 16:14:20 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.Update (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:20 HTTP "PUT" "/api/Applicant/Update" responded 201 in 86.3856 ms 
+05/31/2020 16:14:20 Request finished in 95.1897ms 201 application/json; charset=utf-8 
+05/31/2020 16:14:30 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetAll   
+05/31/2020 16:14:30 CORS policy execution successful. 
+05/31/2020 16:14:30 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:30 Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:14:30 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:14:30 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:14:30 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 4.6057ms. 
+05/31/2020 16:14:30 Executing JsonResult, writing value of type '"System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+05/31/2020 16:14:30 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)" in 38.5014ms 
+05/31/2020 16:14:30 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:30 HTTP "GET" "/api/Applicant/GetAll" responded 200 in 59.5541 ms 
+05/31/2020 16:14:30 Request finished in 74.7998ms 200 application/json; charset=utf-8 
+05/31/2020 16:14:33 Request starting HTTP/1.1 GET http://localhost:5000/api/Applicant/GetOne?id=1   
+05/31/2020 16:14:33 CORS policy execution successful. 
+05/31/2020 16:14:33 Executing endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:33 Route matched with "{action = \"GetOne\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOne(Int32)" on controller "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController" ("Hahn.ApplicatonProcess.May2020.Web"). 
+05/31/2020 16:14:33 Executing action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" - Validation state: Valid 
+05/31/2020 16:14:33 Entity Framework Core "3.1.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Hahn-Task " 
+05/31/2020 16:14:33 Executed action method "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 7.1251ms. 
+05/31/2020 16:14:33 Executing JsonResult, writing value of type '"Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant"'. 
+05/31/2020 16:14:33 Executed action "Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)" in 41.1485ms 
+05/31/2020 16:14:33 Executed endpoint '"Hahn.ApplicatonProcess.May2020.Web.Controllers.ApplicantController.GetOne (Hahn.ApplicatonProcess.May2020.Web)"' 
+05/31/2020 16:14:33 HTTP "GET" "/api/Applicant/GetOne?id=1" responded 200 in 53.5298 ms 
+05/31/2020 16:14:33 Request finished in 76.2653ms 200 application/json; charset=utf-8 

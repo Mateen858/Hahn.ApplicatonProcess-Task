@@ -26,29 +26,37 @@
                         <td>
                             Hired
                         </td>
+                        <td>
+                            action
+
+                        </td>
                     </tr>
                     <tr repeat.for="applicant of applicants">
                         <td>
-                            ${applicant.Name}
+                            ${applicant.name}
                         </td>
                         <td>
-                            ${applicant.FamilyName}
+                            ${applicant.familyName}
                         </td>
                         <td>
-                            ${applicant.Address}
+                            ${applicant.address}
                         </td>
                         <td>
-                            ${applicant.CountryOfOrigin}
+                            ${applicant.countryOfOrigin}
                         </td>
                         <td>
-                            ${applicant.Email}
+                            ${applicant.email}
                         </td>
                         <td>
-                            ${applicant.Age}
+                            ${applicant.age}
                         </td>
                         <td>
-                            ${applicant.Hired}
+                            ${applicant.hired}
                         </td>
+                        <td>
+                            <a route-href="route: detail; params.bind:{id:applicant.id}">Detail</a>
+                            
+                            </td>
                     </tr>
                 </table>
         </div>

@@ -1,0 +1,59 @@
+<template>
+    <require from="bootstrap/dist/css/bootstrap.css"></require>
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-md-12">
+                <!-- ${applicant} -->
+                <table class="table table-responsive">
+                    <tr>
+                        <th class="text-right">Name:</th>
+                        <td>${applicant.name}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Family Name:</th>
+                        <td>${applicant.familyName}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Address:</th>
+                        <td>${applicant.address}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Country:</th>
+                        <td>${applicant.countryOfOrigin}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Email:</th>
+                        <td>${applicant.email}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Age:</th>
+                        <td>${applicant.age}</td>
+                    </tr>
+                    <tr>
+                        <th class="text-right">Hired:</th>
+                        <td>${applicant.hired?'Yes':'No'}</td>
+                    </tr>
+                    <tr>
+                        
+                        <td colspan="2">
+                            <a class="btn btn-success" route-href="route: applicants">Back to List</a>
+                            <a class="btn btn-info" route-href="route: edit; params.bind:{id:applicant.id}">Edit</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+</template>
+
+<!-- 
+id:Number;
+    name:string;
+    familyName:string;
+    address:string;
+    countryOfOrigin:string;
+    email:string;
+    age:Number;
+    hired:boolean; -->

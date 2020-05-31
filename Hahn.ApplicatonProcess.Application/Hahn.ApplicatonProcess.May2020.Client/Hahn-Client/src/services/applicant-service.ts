@@ -9,10 +9,10 @@ export class ApplicantService {
     contacts = [];
     private urls = {
         getAllApplicantUrl : `${api.dev}/api/Applicant/GetAll`,
-        getOneApplicantUrl :``,
-        createNewApplicantUrl : ``,
-        updateApplicantUrl : ``,
-        deleteApplicantUrl : ``,
+        getOneApplicantUrl :`${api.dev}/api/Applicant/GetOne?id=`,
+        createNewApplicantUrl : `${api.dev}/api/Applicant/Save`,
+        updateApplicantUrl : `${api.dev}/api/Applicant/Update`,
+        deleteApplicantUrl : `${api.dev}/api/Applicant/Delete?id=`,
     }
 
     constructor(http:HttpClient) {
@@ -33,6 +33,7 @@ export class ApplicantService {
 
     createApplicant(applicant) {
         let promise = new Promise((resolve, reject) => {
+            console.log("in service", applicant);
             this.http
                 .post(this.urls.createNewApplicantUrl, applicant)
                 .then(data => {

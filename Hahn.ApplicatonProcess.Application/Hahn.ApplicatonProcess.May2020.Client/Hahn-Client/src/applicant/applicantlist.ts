@@ -14,13 +14,13 @@ import { ApplicantService } from '../services/applicant-service';
     }
   
     created() {
-    //  this.getApplicants();
-    this.applicants  = [
-        {"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
-        {"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
-        {"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
-        {"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true}
-    ]
+      this.getApplicants();
+    // this.applicants  = [
+    //     {"Id":1, "Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
+    //     {"Id":2,"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
+    //     {"Id":3,"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true},
+    //     {"Id":4,"Name":"RMateen", "FamilyName":"FamilyR", "Address":"H No38", "CountryOfOrigin":"Pakistan", "Email": "a.mateen858@hotmail.com", "Age":30, "Hired":true}
+    // ]
     }
   
     select(contact) {
