@@ -19,7 +19,7 @@
     },
     "Hahn.ApplicatonProcess.May2020.Web": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "weatherforecast",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {

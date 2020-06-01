@@ -3,14 +3,7 @@
     <require from="toastr/build/toastr.min.css"></require>
     <div class="container">
         <div class="row">
-            <div class="col-md-12" validation-errors.bind="errors">
-               
-                     <ul if.bind="controller.errors">
-            <li repeat.for="error of controller.errors">
-                ${error.message}
-            </li>
-        </ul>
-                
+            <div class="col-md-12">
                 <form role="form" >
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -49,55 +42,3 @@
         </div>
     </div>
 </template>
-
-
-<!-- <template>
-    <h2>Case Two:  Non-Manual Triggers Don't Evaluate Object-level Rules</h2>
-    <ol>
-      <li>In this case, the validate trigger is set to "blur".  In this case, we want to save the entire instance whenever a single property is changed.</li>
-      <li>Enter anything in the First Name field that does not contain 'abc'.</li>
-      <li>Tab out of the input field.</li>
-      <li><span style=color:red>Notice that nothing happened, even though the entry is invalid. </span> Since the 'abc' rule is not known to relate to the FirstName property, only the rules known to apply to the FirstName property were evaluated.  So again we need the requested change from Case One.  Then the "validate" value converter should be confirmed to validate against all rules that apply to the property, including those defined by ensureObject.satifies.</li>
-    </ol>
-  
-    <div style="width:100%" with.bind="applicant">
-      
-      <div class="form-group">
-      <ul><li repeat.for="error of controller.errors">${error.message}</li></ul>
-      </div>
-  
-      <div class="form-group">
-      <label class="control-label" for="name">Name</label>
-      <input type="text" class="form-control" id="name" placeholder="Name"
-             value.bind="applicant.name & validate">
-      </div>
-  
-      <div class="form-group">
-        <label class="control-label" for="familyName">Family Name</label>
-        <input type="text" class="form-control" id="familyName" placeholder="Family Name"
-               value.bind="applicant.familyName & validate">
-      </div>
-  
-      <div class="form-group">
-        <label class="control-label" for="email">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Email"
-               value.bind="applicant.email & validate">
-      </div>
-
-      <div class="form-group">
-        <label class="control-label" for="age">Age</label>
-        <input type="email" class="form-control" id="age" placeholder="Age"
-               value.bind="applicant.age & validate">
-      </div>
-      <div class="form-group">
-        <label class="control-label" for="address">Address</label>
-        <input type="email" class="form-control" id="address" placeholder="Address"
-               value.bind="applicant.address & validate">
-      </div>
-      <div class="form-group">
-        <label class="control-label" for="country">Country</label>
-        <input type="email" class="form-control" id="country" placeholder="Country"
-               value.bind="applicant.country & validate">
-      </div>
-    </div>
-   </template> -->

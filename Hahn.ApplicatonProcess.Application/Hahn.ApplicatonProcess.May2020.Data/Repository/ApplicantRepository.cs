@@ -13,12 +13,7 @@ namespace Hahn.ApplicatonProcess.May2020.Data.Repository
         private readonly AppDbContext _db;
         private readonly ILogger<ApplicantRepository> _logger;
 
-        //public ApplicantRepository()
-        //{
-        //    _db = new AppDbContext(new DbContextOptions<AppDbContext>());
-           
-        //}
-
+        
         public ApplicantRepository(AppDbContext db, ILogger<ApplicantRepository> logger)
         {
             _db = db;

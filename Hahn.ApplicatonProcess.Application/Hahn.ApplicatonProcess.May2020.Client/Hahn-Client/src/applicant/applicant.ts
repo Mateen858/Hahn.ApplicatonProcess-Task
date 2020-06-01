@@ -1,4 +1,3 @@
-        
 export class Applicant{
     id:Number;
     name:string;
@@ -9,3 +8,4 @@ export class Applicant{
     age:Number;
     hired:boolean;
 }
+

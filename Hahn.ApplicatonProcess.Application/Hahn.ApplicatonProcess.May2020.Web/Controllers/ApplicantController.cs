@@ -40,30 +40,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
         [HttpPost("Save")]
         public async Task<IActionResult> Save(Applicant applicant)
         {
-            //for manual validation
-            //var applicant1 = new Applicant();
-            //var validator = new ApplicantValidator();
-            //var results = validator.Validate(applicant1);
-            //results.AddToModelState(ModelState, null);
-
-
-            //try
-            //{
-            //    throw new Exception("this is my demo exception");
-            //}
-            //catch (Exception ex)
-            //{
-
-            //    _logger.LogError(ex, ex.Message);
-            //}
-
-
-
-
             int id = 0;
-
-
-
             if (ModelState.IsValid)
             {
                 id = await _repository.CreateNew(applicant);
@@ -84,11 +61,6 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
         [HttpPut("Update")]
         public async Task<IActionResult> Update(Applicant applicant)
         {
-            //for manual validation
-            //var applicant1 = new Applicant();
-            //var validator = new ApplicantValidator();
-            //var results = validator.Validate(applicant1);
-            //results.AddToModelState(ModelState, null);
             int id = 0;
             try
             {
